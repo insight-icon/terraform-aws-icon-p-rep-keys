@@ -6,7 +6,7 @@ terraform {
 }
 
 locals {
-  name = var.resource_group
+  name = var.name
   common_tags = {
     "Terraform"   = true
     "Environment" = var.environment
